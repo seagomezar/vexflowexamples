@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ejemplos ilustrativos de como usar VexFlow
 
-## Available Scripts
+Este repo contiene algunos ejemplos de como usar VexFlowJS para crear componentes de ReactJs que
+potencialmente pueden contener partituras y SVGs con notación y representación musical.
 
-In the project directory, you can run:
+Por el momento hay 3 ejemplos:
 
-### `yarn start`
+- Pintando una escala en dos compases donde la importancia es entender las lines de cierre de compas.
+- Como unir notas mediante el objeto BEAM.
+- Como escribir acordes.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Algunos codepen útiles:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [VexFlow y Animaciones](https://codepen.io/seagomezar/pen/ExVXMgO)
 
-### `yarn test`
+[Otro repositorio con utilización más avanzada de vexflow](https://github.com/seagomezar/AI-Based-Music-Generator-ReactJS)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Aquí puedes ver la presentación donde se expone este proyecto:
+[Link a las diapositivas](https://docs.google.com/presentation/d/13daem4eBm7uj1aPwO-Anwu8KBKRvI4dvgKW5HjOWSos/edit?usp=sharing)
 
-### `yarn build`
+## Comenzando 🚀
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Clona el repositorio_
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+git clone https://github.com/seagomezar/vexflowexamples.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pre-requisitos 📋
 
-### `yarn eject`
+_Ten instalada la última versión de nodeJS que puedes obtener aquí:_
+https://nodejs.org/es/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Instalación 🔧
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ejecuta `npm install` para instalar las dependencias.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Ejecución ⚙️
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Ejecuta `npm run dev` para un servidor de dev. Navega a `http://localhost:3000/`. La aplicación se recargará automáticamente cuando hagas algun cambio en el código.
 
-## Learn More
+## Construido con 🛠️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://es.reactjs.org/) - Una biblioteca de JavaScript para construir interfaces de usuario.
+- [VexFlow](http://www.vexflow.com/) - VexFlow es una API de representación de notación musical Open-Source. Está escrito
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autores ✒️
 
-### Code Splitting
+- **Sebastian Gomez** - _Trabajo Completo_ - [seagomezar](https://github.com/seagomezar)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## ¿Qué sigue para este proyecto?
 
-### Analyzing the Bundle Size
+- Incluir más ejemplos y tutoriales que les permita a los desarrolladores javascript entender mejor como funciona vexflow.
+- Cuentame tus ideas con un PR!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Expresiones de Gratitud 🎁
 
-### Making a Progressive Web App
+- Comenta a otros sobre este proyecto 📢
+- Invitame una cerveza 🍺 o un café ☕.
+- Da las gracias públicamente 🤓 my twitter @sebasgojs.
+- etc.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+---
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+⌨️ con ❤️ por [sebasgojs](https://twitter.com/sebasgojs) 😊
